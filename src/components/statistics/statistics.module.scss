@@ -1,0 +1,49 @@
+@import '../../theme/colors.module.scss';
+
+.root {
+    flex-direction: column;
+    font-family: Poppins;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header {
+    font-weight: 700;
+    line-height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.description {
+    color: #AEAEAE;
+    line-height: 14px;
+}
+
+.dollar {
+    font-size: 18px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    line-height: 20px;
+}
+
+.balance .header {
+    color: $light-green;
+    font-size: 18px;
+}
+
+.income .header {
+    color: $dark-blue;
+    font-size: 18px;
+}
+
+.outcome .header {
+    color: $red;
+    font-size: 18px;
+}
