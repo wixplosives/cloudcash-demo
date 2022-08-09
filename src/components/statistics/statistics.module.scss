@@ -1,49 +1,46 @@
-@import '../../theme/colors.module.scss';
+@import "../../theme/colors.module.scss";
+@import "../../theme/fonts.scss";
 
 .root {
-    flex-direction: column;
-    font-family: Poppins;
+  flex-direction: column;
 }
 
 .content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .header {
-    font-weight: 700;
-    line-height: 38px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 5px;
+  font: $small-font;
+  line-height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
 }
 
 .description {
-    color: #AEAEAE;
-    line-height: 14px;
+  color: #aeaeae;
+  line-height: 14px;
 }
 
 .dollar {
-    font-size: 18px;
-    align-items: flex-end;
-    justify-content: flex-end;
-    line-height: 20px;
+  font-size: 18px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  line-height: 20px;
 }
 
 .balance .header {
-    color: $light-green;
-    font-size: 18px;
+  color: $light-green;
 }
 
 .income .header {
-    color: $dark-blue;
-    font-size: 18px;
+  color: $dark-blue;
 }
 
 .outcome .header {
-    color: $red;
-    font-size: 18px;
+  color: $red;
 }

@@ -16,9 +16,9 @@ export const SumupMenu: React.FC<SumupMenuProps> = ({
       {items.map((item) => (
         <div
           key={item.text}
-          className={
-            `${styles.menuItem} ${item.selected ? styles.selected : ""}`
-          }
+          className={`${styles.menuItem} ${
+            item.selected ? styles.selected : ""
+          }`}
         >
           <Icon icon={item.icon} className={styles.icon} />
           {item.text}
