@@ -21,8 +21,6 @@
 .divider {
   height: 200px;
   width: 1px;
-  margin-right: 32px;
-  margin-left: 40px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -39,8 +37,6 @@
   display: flex;
   height: 90%;
   width: 100%;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .creditCard {
