@@ -1,2 +1,4 @@
-$regular-font: 700 32px Roboto;
-$small-font: 700 18px Roboto;
+$font-family: Roboto;
+$regular-font: 700 32px $font-family;
+$small-font: 700 18px $font-family;
+$tiny-font: 700 14px $font-family;
