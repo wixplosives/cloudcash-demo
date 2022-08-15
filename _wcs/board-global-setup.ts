@@ -1,5 +1,5 @@
 import "@blueprintjs/core/lib/css/blueprint.css";
-const fontLoader = (function () {
+(function fontLoader() {
   const headID = document.getElementsByTagName("head")[0];
   const link = document.createElement("link");
   link.type = "text/css";
@@ -8,5 +8,5 @@ const fontLoader = (function () {
   //link.href = 'http://fonts.googleapis.com/css?family=Oswald&effect=neon';
   headID.appendChild(link);
 
-  link.href = "http://fonts.googleapis.com/css?family=" + "Poppins";
+  link.href = "http://fonts.googleapis.com/css?family=" + "Roboto";
 })();
