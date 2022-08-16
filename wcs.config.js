@@ -10,7 +10,7 @@ module.exports = {
    * Refer to https://component-studio.wixanswers.com/en/article/kb17226 for more information.
    */
   componentsDiscovery: {
-    include: ["./src/components"],
+    include: ["./src/components/**"],
     exclude: ["./src/component-templates/"],
   },
 
