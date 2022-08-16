@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./sumup-menu.module.scss";
 import { Icon } from "../icon/Icon";
+import type { IconName } from "@blueprintjs/icons";
 
 export interface SumupMenuProps {
   className?: string;
-  items: Array<{ text: string; icon: string; selected: boolean }>;
+  items: Array<{ text: string; icon: IconName; selected: boolean }>;
 }
 
 export const SumupMenu: React.FC<SumupMenuProps> = ({
@@ -12,7 +13,7 @@ export const SumupMenu: React.FC<SumupMenuProps> = ({
   items = [],
 }) => {
   return (
-    <div className={styles.root}>
+    <div className={`${styles.root} ${className}`}>
       {items.map((item) => (
         <div
           key={item.text}
