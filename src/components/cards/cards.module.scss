@@ -1,4 +1,4 @@
-@import "../../theme/colors.module.scss";
+@import "../../theme/globals.scss";
 
 .root {
   font-family: Roboto;
@@ -30,8 +30,7 @@
   }
 }
 
-.left {
-}
+.left {}
 
 .content {
   display: flex;
