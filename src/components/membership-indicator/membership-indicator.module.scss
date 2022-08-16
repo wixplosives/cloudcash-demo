@@ -50,23 +50,23 @@
 .userName {
   font-size: 14px;
   font-weight: 600;
-  font-family: Verdana, sans-serif;
+  font-family: Roboto;
   margin: 12px 0px 0px;
 }
 
 .userType {
-  font-family: Verdana, sans-serif;
+  font-family: Roboto;
   color: #aeaeae;
 }
 
 .indicator {
   display: flex;
-  width: 10px;
+  width: 12px;
   background: #bb4430;
   border-radius: 50%;
   position: relative;
-  left: 20px;
-  top: 15px;
+  left: 10px;
+  top: 5px;
   z-index: 1;
-  height: 10px;
+  height: 12px;
 }
