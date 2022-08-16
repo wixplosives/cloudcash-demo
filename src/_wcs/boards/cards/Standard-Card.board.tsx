@@ -1,6 +1,6 @@
 import React from "react";
 import { createBoard } from "@wixc3/react-board";
-import { Cards } from "../../../src/components/cards/cards";
+import { Cards } from "../../../components/cards/cards";
 
 export default createBoard({
   name: "Standard Card",

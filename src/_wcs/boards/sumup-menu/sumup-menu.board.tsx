@@ -1,6 +1,6 @@
 import React from "react";
 import { createBoard } from "@wixc3/react-board";
-import { SumupMenu } from "../../../src/components/sumup-menu/sumup-menu";
+import { SumupMenu } from "../../../components/sumup-menu/sumup-menu";
 
 export default createBoard({
   name: "SumupMenu",
@@ -13,12 +13,16 @@ export default createBoard({
           text: "Overview",
         },
         {
-          text: "Transactions",
           icon: "properties",
+          selected: false,
+          text: "Transactions",
+          
         },
         {
-          text: "Cards",
           icon: "credit-card",
+          selected: false,
+          text: "Cards",
+          
         },
       ]}
     />

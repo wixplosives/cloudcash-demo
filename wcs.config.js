@@ -3,7 +3,7 @@ module.exports = {
    * Specifies modules to evaluate before rendering any boards in your project.
    * Refer to https://component-studio.wixanswers.com/en/article/kb14533 for more information.
    */
-  boardGlobalSetup: "./_wcs/board-global-setup.ts",
+  boardGlobalSetup: "./src/_wcs/board-global-setup.ts",
 
   /**
    * Scopes component discovery. Use include/exclude glob patterns to configure the search scope.
@@ -51,11 +51,4 @@ module.exports = {
    * Refer to https://component-studio.wixanswers.com/en/article/kb38231 for more information.
    */
   svgLoader: "both",
-
-  /**
-   * static deploay
-   */
-  staticDeploy: {
-    include: ["./src/components/**/*", "./src/component-templates/**/*"],
-  },
 };
