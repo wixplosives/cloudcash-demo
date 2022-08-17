@@ -2,21 +2,23 @@
 @import "../../theme/fonts.scss";
 
 .root {
-  display: flex;
-  flex-direction: column;
-  color: #aeaeae;
-  align-items: end;
-  text-align: end;
+    display: flex;
+    flex-direction: column;
+    color: #aeaeae;
+    align-items: end;
+    text-align: end;
 }
 
 @media only screen and (max-width: 800px) {
-  .root {
-    flex-direction: column;
-    text-align: end;
-  }
+    .root {
+        flex-direction: column;
+        text-align: end;
+    }
 }
 
 .switch {
-  // fix margin-like gap from blueprint
-  right: -10px;
+    // fix margin-like gap from blueprint
+    right: -10px;
+    display: block;
+    overflow: visible;
 }
