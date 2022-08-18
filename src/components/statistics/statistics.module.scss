@@ -2,45 +2,45 @@
 @import "../../theme/fonts.scss";
 
 .root {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .content {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .header {
-  font: 700 18px Roboto;
-  line-height: 38px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 5px;
+    font: 700 18px Roboto;
+    line-height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
 }
 
 .description {
-  color: #aeaeae;
-  line-height: 14px;
+    color: #aeaeae;
+    line-height: 14px;
 }
 
 .dollar {
-  align-items: flex-end;
-  justify-content: flex-end;
-  line-height: 20px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    line-height: 20px;
 }
 
 .balance .header {
-  color: $orange;
-  font-size: 18px;
+    color: $dark-blue;
+    font-size: 32px;
 }
 
 .income .header {
-  color: $dark-blue;
+    color: $dark-blue;
 }
 
 .outcome .header {
-  color: $red;
+    color: $red;
 }
