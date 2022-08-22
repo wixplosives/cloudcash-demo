@@ -21,5 +21,6 @@ export default createBoard({
         windowWidth: 829,
         canvasBackgroundColor: "#ffffff",
         windowHeight: 599,
+        canvasWidth: 612
     },
 });
