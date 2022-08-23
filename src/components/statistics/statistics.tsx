@@ -4,7 +4,7 @@ import styles from "./statistics.module.scss";
 export interface StatisticsProps {
   className?: string;
   price?: number;
-  type?: "balance" | "income" | "outcome";
+  type?: "balance" | "income" | "expenses";
 }
 
 export const Statistics: React.FC<StatisticsProps> = ({
@@ -15,7 +15,7 @@ export const Statistics: React.FC<StatisticsProps> = ({
   const labels = {
     balance: "Balance",
     income: "Income",
-    outcome: "Outcome",
+    expenses: "Expenses",
   };
   return (
     <div className={`${styles.root} ${rootClassName}`}>
