@@ -26,9 +26,7 @@ export const Cards: React.FC<CardsProps> = ({
                 <p className={styles.title}>Cards</p>
                 <div className={`${styles.layout} ${styles.content}`}>
                     <div className={styles["left"]}>
-                        <CreditCard cardInfo={cardInfo}></CreditCard>
-                        <WeeklySummary />
-                    </div>
+                        <CreditCard cardInfo={cardInfo}></CreditCard></div>
                     <Divider color="E8E8E8" className={styles.divider}></Divider>
                     <div className={styles["right"]}>
                         <Statistics price={balancePrice} type="balance" />
