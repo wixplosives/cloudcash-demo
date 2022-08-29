@@ -3,14 +3,14 @@ import { createBoard } from "@wixc3/react-board";
 import { Cards } from "../../../components/cards/cards";
 
 export default createBoard({
-    name: "Premium Card",
+    name: "Premium Card With long text",
     Board: () => (
         <Cards
             incomePrice={1500}
             expensesPrice={350}
             balancePrice={20}
             cardInfo={{
-                cardHolder: "Omer Kenet",
+                cardHolder: "Omer Kenet Omer KenetOmer KenetOmer KenetOmer KenetOmer Kenet",
                 company: "Wix",
                 expiryDate: "06/23",
                 premium: true,
